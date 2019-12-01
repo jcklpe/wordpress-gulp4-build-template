@@ -124,5 +124,5 @@ gulp.task("run", gulp.parallel("browserSync", "scss", "js"));
 // build files minified for final dist
 gulp.task("prod", gulp.parallel("scssProd", "js"));
 
-// render js and scss
+// watch files with browsersync read to reload
 gulp.task("default", gulp.parallel("dev", "run"));
