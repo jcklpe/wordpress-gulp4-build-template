@@ -1,0 +1,31 @@
+.container {
+  background: #0f2862;
+  color: #ff5359;
+  border-radius: 2px;
+  margin: 10vw;
+  padding: 25px;
+}
+
+.container button {
+  background: #4f5f76;
+  border: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  border-radius: 20rem;
+  vertical-align: text-bottom;
+}
+
+.container button:hover {
+  background: #091f36;
+}
+
+body {
+  background: #091f36;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  user-select: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+// this is just a test
+
+.container {
+  background: #0f2862;
+  color: #ff5359;
+  border-radius: 2px;
+  margin: 10vw;
+  padding: 25px;
+  button {
+    background: #4f5f76;
+    border: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    border-radius: 20rem;
+    vertical-align: text-bottom;
+    &:hover {
+      background: #091f36;
+    }
+  }
+}
